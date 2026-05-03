@@ -81,8 +81,6 @@ Selected based on Random Forest + Chi-Square:
 - Best Parameters:
 {'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
 
----
-
 ### 🔹 RandomSearch ⭐ (Best)
 - Accuracy: **0.918**
 - Best Parameters:
@@ -174,6 +172,3 @@ This makes the system **transparent and trustworthy**.
 This project demonstrates a complete ML workflow:  
 **From raw data → to prediction → to an explainable decision system.**
 ​
-
-```python
-['thal', 'ca', 'cp', 'exang', 'thalach', 'oldpeak', 'age', 'sex']
