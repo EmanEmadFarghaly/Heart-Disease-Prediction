@@ -1,5 +1,4 @@
-# ❤️ Heart Disease Prediction System (End-to-End ML Project)
-
+# ❤️ Heart Disease Prediction System 
 ## 📌 Overview
 This project presents a complete **Machine Learning pipeline** for predicting heart disease using the UCI Heart Disease dataset.
 
