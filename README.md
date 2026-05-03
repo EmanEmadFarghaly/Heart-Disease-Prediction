@@ -79,14 +79,13 @@ Selected based on Random Forest + Chi-Square:
 ### 🔹 GridSearch
 - Accuracy: **0.901**  
 - Best Parameters:
-```python
 {'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
 
+---
 
 ### 🔹 RandomSearch ⭐ (Best)
 - Accuracy: **0.918**
 - Best Parameters:
-```python
 {'n_estimators': 50, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_depth': 5}
 
 ---
