@@ -1,0 +1,106 @@
+Heart Disease Prediction - Evaluation Summary
+===========================================
+
+1. Best Model
+-------------
+Model: Random Forest
+Dataset: Clean Data
+Accuracy: 0.885
+AUC Score: 0.959
+
+--------------------------------------------
+
+2. Model Comparison (Clean Data)
+--------------------------------
+Logistic Regression:
+Accuracy: 0.869
+Precision: 0.813
+Recall: 0.929
+F1 Score: 0.867
+AUC: 0.947
+
+Decision Tree:
+Accuracy: 0.820
+Precision: 0.758
+Recall: 0.893
+F1 Score: 0.820
+AUC: 0.825
+
+Random Forest:
+Accuracy: 0.885
+Precision: 0.818
+Recall: 0.964
+F1 Score: 0.885
+AUC: 0.959
+
+--------------------------------------------
+
+3. Reduced Data Results
+-----------------------
+Best Model: SVM / Random Forest (Close Performance)
+Accuracy: ~0.885
+AUC: ~0.944 - 0.956
+
+--------------------------------------------
+
+4. PCA Results
+--------------
+Best Model: Random Forest
+Accuracy: 0.885
+AUC: ~0.948
+
+--------------------------------------------
+
+5. Hyperparameter Tuning
+------------------------
+Baseline Accuracy: 0.885
+
+GridSearch:
+Accuracy: 0.901
+Best Params:
+- max_depth: 5
+- min_samples_leaf: 2
+- min_samples_split: 5
+- n_estimators: 100
+
+RandomSearch (Best):
+Accuracy: 0.918
+Best Params:
+- n_estimators: 50
+- min_samples_split: 10
+- min_samples_leaf: 2
+- max_depth: 5
+
+--------------------------------------------
+
+6. Feature Selection
+--------------------
+Selected Features:
+- thal
+- ca
+- cp
+- exang
+- thalach
+- oldpeak
+- age
+- sex
+
+--------------------------------------------
+
+7. PCA Summary
+--------------
+Number of Components: 12
+Explained Variance: >= 95%
+
+--------------------------------------------
+
+8. Key Insights
+---------------
+- Chest pain type (cp) is a strong indicator of heart disease
+- Higher oldpeak increases risk
+- Lower max heart rate (thalach) is associated with disease
+- Number of vessels (ca) strongly impacts prediction
+- Males show slightly higher risk
+
+===========================================
+End of Evaluation
